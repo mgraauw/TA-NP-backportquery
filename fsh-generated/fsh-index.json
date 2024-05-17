@@ -1,0 +1,26 @@
+[
+  {
+    "outputFile": "StructureDefinition-query.json",
+    "fshName": "QueryExtension",
+    "fshType": "Extension",
+    "fshFile": "Task.fsh",
+    "startLine": 9,
+    "endLine": 13
+  },
+  {
+    "outputFile": "StructureDefinition-queryType.json",
+    "fshName": "QueryTypeExtension",
+    "fshType": "Extension",
+    "fshFile": "Task.fsh",
+    "startLine": 3,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Task-MyTask.json",
+    "fshName": "MyTask",
+    "fshType": "Instance",
+    "fshFile": "Task.fsh",
+    "startLine": 15,
+    "endLine": 22
+  }
+]

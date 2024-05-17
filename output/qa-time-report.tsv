@@ -1,0 +1,5 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+\fsh-generated\resources\ImplementationGuide-fhir.example.json	1475	-	0	0	0	0	0	0	6	48	0	0	1	0	0	0	0	0	0	0	159	64	0	0	0	3	0	1
+fsh-generated/resources/StructureDefinition-query.json	944	10	0	0	0	0	0	21	0	39	0	0	0	0	0	0	0	0	0	0	178	1178	0	0	0	2	1	0
+fsh-generated/resources/StructureDefinition-queryType.json	1225	11	0	0	0	0	0	18	0	25	0	0	0	0	0	0	0	0	0	0	116	239	0	0	1	2	0	0
+fsh-generated/resources/Task-MyTask.json	724	12	0	0	0	0	0	0	0	61	0	0	0	0	0	0	0	1	0	0	26	44	0	0	0	0	0	0

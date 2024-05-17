@@ -1,0 +1,30 @@
+{
+  "resourceType": "Task",
+  "id": "MyTask",
+  "input": [
+    {
+      "type": {
+        "extension": [
+          {
+            "url": "http://example.org/StructureDefinition/queryType",
+            "valueCoding": {
+              "code": "85354-9",
+              "system": "http://loinc.org",
+              "display": "Blood pressure panel with all children optional"
+            }
+          }
+        ]
+      },
+      "_valueString": {
+        "extension": [
+          {
+            "url": "http://example.org/StructureDefinition/query",
+            "valueString": "http://example.org/Observation/$lastn?code=http://loinc.org|85354-9"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "requested",
+  "intent": "order"
+}

@@ -1,0 +1,54 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "queryType",
+  "url": "http://example.org/StructureDefinition/queryType",
+  "name": "QueryTypeExtension",
+  "status": "draft",
+  "fhirVersion": "4.3.0",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "expression": "Task.input.type",
+      "type": "element"
+    },
+    {
+      "expression": "SubscriptionStatus.notificationEvent",
+      "type": "element"
+    },
+    {
+      "expression": "SubscriptionTopic.notificationShape",
+      "type": "element"
+    },
+    {
+      "expression": "Basic.extension",
+      "type": "element"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://example.org/StructureDefinition/queryType"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ]
+      }
+    ]
+  }
+}

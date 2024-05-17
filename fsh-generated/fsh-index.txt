@@ -1,0 +1,4 @@
+Output File                         Name                Type       FSH File  Lines
+StructureDefinition-query.json      QueryExtension      Extension  Task.fsh  9 - 13
+StructureDefinition-queryType.json  QueryTypeExtension  Extension  Task.fsh  3 - 7
+Task-MyTask.json                    MyTask              Instance   Task.fsh  15 - 22

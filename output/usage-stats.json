@@ -1,0 +1,45 @@
+{
+  "package": "fhir.example",
+  "version": "0.1.0",
+  "fhirVersion": "4.3.0",
+  "extensions": [
+    {
+      "url": "http://example.org/StructureDefinition/query",
+      "title": "QueryExtension",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://example.org/StructureDefinition/queryType",
+      "title": "QueryTypeExtension",
+      "types": [
+        "Coding"
+      ]
+    }
+  ],
+  "profiles": {},
+  "usage": {
+    "http://example.org/StructureDefinition/query": [
+      "Task.input.valueString"
+    ],
+    "http://example.org/StructureDefinition/queryType": [
+      "Task.input.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ]
+  }
+}

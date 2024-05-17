@@ -1,0 +1,49 @@
+TANPbackportquery : Validation Results
+=========================================
+
+err = 0, warn = 7, info = 1
+IG Publisher Version: 1.6.6 Out of date - current version is 1.6.7
+Generated Fri May 17 16:53:05 CEST 2024. FHIR version 4.3.0 for fhir.example#0.1.0 (canonical = http://example.org)
+ Build Errors : 24 / 7 / 0
+ C:\Source\TA-NP-backportquery\fsh-generated\resources\ImplementationGuide-fhir.example : 0 / 0 / 1
+ C:\Source\TA-NP-backportquery\fsh-generated\resources\StructureDefinition-query : 0 / 0 / 1
+ C:\Source\TA-NP-backportquery\fsh-generated\resources\StructureDefinition-queryType : 0 / 0 / 1
+ C:\Source\TA-NP-backportquery\fsh-generated\resources\Task-MyTask : 0 / 0 / 2
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/query.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/queryType.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Task/MyTask.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: C:\Source\TA-NP-backportquery\output\StructureDefinition-query-definitions.html#/html/body/div/div/div/p/a at Line 295, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\StructureDefinition-query-mappings.html#/html/body/div/div/div/p/a at Line 236, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\StructureDefinition-query-testing.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\StructureDefinition-query.html#/html/body/div/div/div/p/a at Line 570, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\StructureDefinition-query.profile.history.html#/html/body/div/div/div/p/a at Line 219, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\StructureDefinition-query.profile.json.html#/html/body/div/div/div/p/a at Line 502, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\StructureDefinition-query.profile.ttl.html#/html/body/div/div/div/p/a at Line 437, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\StructureDefinition-query.profile.xml.html#/html/body/div/div/div/p/a at Line 461, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\StructureDefinition-queryType-definitions.html#/html/body/div/div/div/p/a at Line 295, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\StructureDefinition-queryType-mappings.html#/html/body/div/div/div/p/a at Line 236, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\StructureDefinition-queryType-testing.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\StructureDefinition-queryType.html#/html/body/div/div/div/p/a at Line 576, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\StructureDefinition-queryType.profile.history.html#/html/body/div/div/div/p/a at Line 219, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\StructureDefinition-queryType.profile.json.html#/html/body/div/div/div/p/a at Line 514, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\StructureDefinition-queryType.profile.ttl.html#/html/body/div/div/div/p/a at Line 446, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\StructureDefinition-queryType.profile.xml.html#/html/body/div/div/div/p/a at Line 473, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\Task-MyTask.change.history.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\Task-MyTask.html#/html/body/div/div/div/p/a at Line 192, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\Task-MyTask.json.html#/html/body/div/div/div/p/a at Line 226, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\Task-MyTask.ttl.html#/html/body/div/div/div/p/a at Line 227, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\Task-MyTask.xml.html#/html/body/div/div/div/p/a at Line 219, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\artifacts.html#/html/body/div/div/div/p/a at Line 190, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\index.html#/html/body/div/div/div/p/a at Line 197, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Source\TA-NP-backportquery\output\toc.html#/html/body/div/div/div/p/a at Line 139, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated\resources\ImplementationGuide-fhir.example.json ==
+== fsh-generated\resources\StructureDefinition-query.json ==
+== fsh-generated\resources\StructureDefinition-queryType.json ==
+== fsh-generated\resources\Task-MyTask.json ==
+INFORMATION: Task/MyTask: Task.intent: Reference to experimental CodeSystem http://hl7.org/fhir/request-intent|4.3.0

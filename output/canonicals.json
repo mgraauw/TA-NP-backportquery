@@ -1,0 +1,23 @@
+[
+  {
+    "id" : "fhir.example",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.org/ImplementationGuide/fhir.example",
+    "version" : "0.1.0",
+    "name" : "TANPbackportquery"
+  },
+  {
+    "id" : "query",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/query",
+    "version" : "0.1.0",
+    "name" : "QueryExtension"
+  },
+  {
+    "id" : "queryType",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/queryType",
+    "version" : "0.1.0",
+    "name" : "QueryTypeExtension"
+  }
+]

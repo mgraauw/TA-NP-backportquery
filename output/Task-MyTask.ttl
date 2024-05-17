@@ -1,0 +1,40 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/Task/MyTask> a fhir:Task ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "MyTask"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Task</b><a name=\"MyTask\"> </a><a name=\"hcMyTask\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Task &quot;MyTask&quot; </p></div><p><b>status</b>: requested</p><p><b>intent</b>: order</p><h3>Inputs</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Value[x]</b></td></tr><tr><td style=\"display: none\">*</td><td> <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></td><td>??</td></tr></table></div>"
+  ] ; # 
+  fhir:status [ fhir:v "requested"] ; # 
+  fhir:intent [ fhir:v "order"] ; # 
+  fhir:input ( [
+     fhir:type [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://example.org/StructureDefinition/queryType"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Coding, loinc:85354-9 ;
+           fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "85354-9" ] ;
+           fhir:display [ fhir:v "Blood pressure panel with all children optional" ]
+         ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:string ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://example.org/StructureDefinition/query"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://example.org/Observation/$lastn?code=http://loinc.org|85354-9" ]
+       ] )
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
