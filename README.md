@@ -24,3 +24,5 @@ The existing backport-related-query extension contains both queryType and query.
 
 See: [Task-MyTask.json.html](output/Task-MyTask.json.html), [StructureDefinition-query.html](output/StructureDefinition-query.html) 
 and [StructureDefinition-queryType.html](output/StructureDefinition-queryType.html) for a sketch.
+
+[Github code](https://github.com/mgraauw/TA-NP-backportquery) [Github pages with readble IG](https://mgraauw.github.io/TA-NP-backportquery/)
