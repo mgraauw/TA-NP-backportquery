@@ -1,3 +1,6 @@
+OBSOLETE - project was never followed up upon. 
+Do not use.
+
 This is a draft proposal to extend the [Subscriptions-based Notified Pull with related query](https://hl7.org/fhir/uv/subscriptions-backport/2024Jan/notifications.html#notified-pull) and the [backport-related-query extension](https://hl7.org/fhir/uv/subscriptions-backport/2024Jan/StructureDefinition-backport-related-query.html) to the Task resource.
 
 The backport-related-query extension is a way to add a queryType and query to: 
